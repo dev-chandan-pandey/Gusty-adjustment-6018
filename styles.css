@@ -1,20 +1,80 @@
-* {
-  margin: 0;
-}
-
-.footer-1 > .box {
-  background-color: #FFDD78;
-  width: 1440px;
-  height: 352px;
-  flex-shrink: 0;
+.cont > .arrow {
   display: flex;
+  gap: 10px;
 }
-@media all and (max-width: 375px) {
-  .footer-1 > .box {
-    flex-direction: column;
-    width: 375px;
-    height: 480px;
-  }
+.cont > .img1 img {
+  width: 837px;
+  height: 558.28px;
+  top: 118px;
+  left: 132px;
+  margin-top: 12px;
+}
+.cont .elo {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.cont head {
+  font-family: DM Serif Display;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 80px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 18px;
+}
+.cont .cayla {
+  display: flex;
+  gap: 10px;
+}
+.cont .rect {
+  display: flex;
+  gap: 24px;
+}
+.cont .rec {
+  margin-top: 12px;
+}
+.cont .rect p {
+  margin-top: 15px;
+}
+.cont .name {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.cont .three {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.cont .altera {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 2px;
+}
+.cont .rect img {
+  height: 60px;
+}
+.cont .erro p {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
 }
 
 /*# sourceMappingURL=styles.css.map */
