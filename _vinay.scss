@@ -1,3 +1,21 @@
-.yellow{
-    background-color: yellow;
+@import "mobile.scss";
+*{
+    margin: 0;
+}
+.footer-1{
+        >.box {
+            background-color: #FFDD78;
+            width: 1440px;
+            height: 352px;
+            flex-shrink: 0;
+            display: flex; 
+            @media all and (max-width:$mobile) {
+                flex-direction: column;
+                width: 375px;
+                height: 480px; 
+
+            }
+            
+            
+        }
 }
