@@ -1,12 +1,5 @@
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.yellow {
+  background-color: yellow;
 }
-nav li {
-  display: inline-block;
-}
-nav a {
-  display: block;
-  text-decoration: none;
-}/*# sourceMappingURL=styles.css.map */
+
+/*# sourceMappingURL=styles.css.map */
