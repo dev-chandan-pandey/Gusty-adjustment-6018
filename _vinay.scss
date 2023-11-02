@@ -13,6 +13,12 @@
         flex-shrink: 0;
         display: flex;
 
+        @media all and (max-width:$mobile) {
+            flex-direction: column;
+            width: 375px;
+            height: 480px;
+
+        }
 
         >.box-1 {
             >h5 {
@@ -26,8 +32,9 @@
                 margin-left: 135px;
                 margin-top: 79px;
 
-
-
+                @media all and (max-width:$mobile) {
+                    margin-left: 14px;
+                }
             }
 
             >h2 {
@@ -42,7 +49,16 @@
                 margin-left: 135px;
                 margin-top: 21px;
 
-
+                @media all and (max-width:$mobile) {
+                    width: 209px;
+                    height: 144px;
+                    margin-left: 14px;
+                    font-family: DM Serif Display;
+                    font-size: 40px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 48px;
+                }
             }
         }
 
@@ -54,6 +70,11 @@
             flex-shrink: 0;
             margin-left: 84px;
 
+            @media all and (max-width:$mobile) {
+                width: 346px;
+                margin-left: 14px;
+                margin-top: 10px;
+            }
 
             input {
                 width: 370px;
@@ -63,8 +84,10 @@
                 border: 1px solid #DADADA;
                 background: #FFF;
                 padding-left: 16px;
-                border-style: none;
 
+                @media all and (max-width:$mobile) {
+                    width: 330px;
+                }
 
                 ::placeholder {
                     color: var(--text-black-50, rgba(0, 0, 0, 0.50));
@@ -101,7 +124,10 @@
             margin-left: 30px;
             margin-top: 160px;
 
-
+            @media all and (max-width:$mobile) {
+                margin-left: 14px;
+                margin-top: 16px;
+            }
         }
     }
 }
@@ -112,11 +138,22 @@
     height: 400px;
     flex-shrink: 0;
 
+    @media all and (max-width:$mobile) {
+        width: 375px;
+        height: 896px;
+        flex-shrink: 0;
+    }
 
     #div-1 {
         padding: 0 135px;
         display: flex;
         justify-content: space-between;
+
+        @media all and (max-width:$mobile) {
+            display: flex;
+            padding: 0 14px;
+            flex-direction: column;
+        }
 
         >#div-1-1 {
             >div:nth-child(1) {
@@ -147,11 +184,19 @@
         #div-1-2 {
             display: flex;
 
+            @media all and (max-width:$mobile) {
+                display: flex;
+            }
+
             >div:nth-child(1),
             >div:nth-child(2) {
                 margin-top: 79px;
                 margin-left: 142px;
 
+                @media all and (max-width:$mobile) {
+                    margin: 80px 120px 0 0;
+
+                }
 
                 >div:nth-child(1) {
                     color: var(--Text_Black, #000);
@@ -181,6 +226,10 @@
                 display: flex;
                 margin-left: 130px;
                 gap: 20px;
+
+                @media all and (max-width:$mobile) {
+                    margin-left: 0;
+                }
 
                 >img {
                     border-radius: 5px;
@@ -216,6 +265,9 @@
         background: #000;
         margin-top: 55px;
 
+        @media all and (max-width:$mobile) {
+            width: 375px;
+        }
     }
 
     >div:nth-child(3) {
@@ -225,6 +277,12 @@
         margin-top: 27px;
         @include paragraph;
 
+        @media all and (max-width:$mobile) {
+            flex-direction: column;
+            gap: 8px;
+            margin: 0;
+            padding: 14px;
+        }
     }
 
 }
