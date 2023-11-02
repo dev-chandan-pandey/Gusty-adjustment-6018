@@ -12,6 +12,7 @@
         height: 352px;
         flex-shrink: 0;
         display: flex;
+        margin-top: 150px;
 
         @media all and (max-width:$mobile) {
             flex-direction: column;

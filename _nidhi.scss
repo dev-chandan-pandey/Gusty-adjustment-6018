@@ -3,14 +3,16 @@
      >.arrow{
         display: flex;
         gap:10px;
-     }
-     >.img1 img{
-        width: 837px;
-        height: 558.28px;
-        top: 118px;
-        left: 132px;
+     } 
+     >.img1 {
+      width:100%;
+        img{
+        width: 100%;
+        // height: 558.28px;
         margin-top: 12px;
      }
+     }
+     
     .elo{
         //styleName: Text;
        font-family: DM Sans;
@@ -21,8 +23,9 @@
        text-align: left;
 
     }
-      head{
+      .head>h1{
         //styleName: H1;
+        width: 100%;
         font-family: DM Serif Display;
         font-size: 72px;
         font-weight: 400;
@@ -35,6 +38,7 @@
       .cayla{
         display: flex;
         gap:10px;
+        align-items: center;
       }
 
       .rect{
