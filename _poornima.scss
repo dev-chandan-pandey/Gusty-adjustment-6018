@@ -4,7 +4,7 @@
 }
 .comments-container{
     width: 100%;
-    height: 684px;
+    height: 200px;
     background-color: aquamarine;
 }
 .Comment-content{
@@ -12,7 +12,7 @@
     height: 48px;
     background-color: bisque;
     margin-left: 135px;
-    margin-top: 2890px;
+    // margin-top: 2890px;
     font-weight: 400;
     font-size: 30px;
    text-align: center;
@@ -24,7 +24,7 @@
 }
 .image-1{
     width: 100%;
-    height: 200px;
+    height: 150px;
     background-color: chartreuse;
     border: 1px solid;
     display: flex;
@@ -33,6 +33,12 @@
     width:20% ;
     height: 200px;
     background-color: beige;
+
+}
+.imag img{
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
 }
 .image-1-container{
     height: 200px;
@@ -41,14 +47,14 @@
 }
 .image-2{
     width: 100%;
-    height: 200px;
+    height: 150px;
     background-color: chartreuse;
     border: 1px solid;
     display: flex;
 }
 .image-3{
     width: 100%;
-    height: 200px;
+    height: 150px;
     background-color: chartreuse;
     border: 1px solid;
     display: flex;
