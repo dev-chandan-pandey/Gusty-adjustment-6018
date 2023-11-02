@@ -6,17 +6,22 @@
 }
 
 .footer-1 {
+    margin-top: 500px;
+    background-color: #FFDD78;
+
     >.box {
-        background-color: #FFDD78;
-        width: 1440px;
+        width: 80%;
         height: 352px;
         flex-shrink: 0;
         display: flex;
-        margin-top: 150px;
+        margin: auto;
+        justify-content: space-between;
 
         @media all and (max-width:$mobile) {
             flex-direction: column;
-            width: 375px;
+            justify-content: normal;
+            gap: 20px;
+            width: 80%;
             height: 480px;
 
         }
@@ -30,7 +35,6 @@
                 font-weight: 400;
                 line-height: 24px;
                 letter-spacing: 4.8px;
-                margin-left: 135px;
                 margin-top: 79px;
 
                 @media all and (max-width:$mobile) {
@@ -40,14 +44,11 @@
 
             >h2 {
                 margin-top: 21px;
-                width: 516px;
                 height: 128px;
                 font-family: DM Serif Display;
-                font-size: 56px;
+                font-size: 2em;
                 font-style: normal;
                 font-weight: 400;
-                line-height: 64px;
-                margin-left: 135px;
                 margin-top: 21px;
 
                 @media all and (max-width:$mobile) {
@@ -66,19 +67,17 @@
 
         >.inp {
             margin-top: 132px;
-            width: 370px;
-            height: 76px;
+            width: 30%;
             flex-shrink: 0;
-            margin-left: 84px;
 
             @media all and (max-width:$mobile) {
-                width: 346px;
+                width: 80%;
                 margin-left: 14px;
                 margin-top: 10px;
             }
 
             input {
-                width: 370px;
+                width: 80%;
                 height: 48px;
                 border-radius: 5px;
                 margin-top: 28px;
@@ -87,13 +86,13 @@
                 padding-left: 16px;
 
                 @media all and (max-width:$mobile) {
-                    width: 330px;
+                    width: 80%;
                 }
 
                 ::placeholder {
                     color: var(--text-black-50, rgba(0, 0, 0, 0.50));
                     font-family: DM Sans;
-                    font-size: 16px;
+                    font-size: 2em;
                     font-style: normal;
                     font-weight: 400;
                     line-height: 24px;
@@ -105,7 +104,7 @@
         }
 
         >.button {
-            width: 170px;
+            width: 120px;
             height: 48px;
             flex-shrink: 0;
             border-radius: 5px;
@@ -122,7 +121,6 @@
             font-style: normal;
             font-weight: 700;
             line-height: 24px;
-            margin-left: 30px;
             margin-top: 160px;
 
             @media all and (max-width:$mobile) {
@@ -135,7 +133,7 @@
 
 .footer-2 {
     background-color: #F5F6Fc;
-    width: 1440px;
+    width: 100%;
     height: 400px;
     flex-shrink: 0;
 
@@ -146,8 +144,10 @@
     }
 
     #div-1 {
-        padding: 0 135px;
         display: flex;
+        width: 80%;
+        gap: 5%;
+        margin: auto;
         justify-content: space-between;
 
         @media all and (max-width:$mobile) {
@@ -157,21 +157,26 @@
         }
 
         >#div-1-1 {
+            width: 30%;
+
+            @media all and (max-width:$mobile) {
+                width: 100%;
+            }
+
             >div:nth-child(1) {
                 color: var(--Text_Black, #000);
                 font-family: DM Serif Display;
-                font-size: 24px;
+                font-size: 1em;
                 font-style: normal;
                 font-weight: 400;
-                line-height: 32px;
                 margin-top: 72px;
             }
 
             >div:nth-child(2) {
                 @include paragraph();
                 margin-top: 23px;
-                width: 270px;
-                height: 79px;
+                font-size: 1em;
+                width: 100%;
                 flex-shrink: 0;
             }
 
@@ -184,6 +189,7 @@
 
         #div-1-2 {
             display: flex;
+            gap: 20px;
 
             @media all and (max-width:$mobile) {
                 display: flex;
@@ -192,7 +198,6 @@
             >div:nth-child(1),
             >div:nth-child(2) {
                 margin-top: 79px;
-                margin-left: 142px;
 
                 @media all and (max-width:$mobile) {
                     margin: 80px 120px 0 0;
@@ -202,15 +207,16 @@
                 >div:nth-child(1) {
                     color: var(--Text_Black, #000);
                     font-family: DM Sans;
-                    font-size: 16px;
+                    font-size: 1em;
                     font-style: normal;
                     font-weight: 700;
                     margin-bottom: 16px;
-                    line-height: 24px;
+                    // line-height: 24px;
                 }
 
                 >div {
                     @include paragraph;
+                    font-size: 1em;
                     margin-top: 8px;
                 }
             }
@@ -220,12 +226,15 @@
             display: flex;
             flex-direction: column;
             margin-top: 79px;
+            width: 30%;
             gap: 40px;
 
+            @media all and (max-width:$mobile) {
+                width: 100%;
+            }
 
             >div {
                 display: flex;
-                margin-left: 130px;
                 gap: 20px;
 
                 @media all and (max-width:$mobile) {
@@ -239,16 +248,17 @@
                 }
 
                 >div {
+                    width: 100%;
                     >div:nth-child(1) {
                         @include paragraph;
-                        width: 257px;
+                        width: 100%;
                     }
 
                     >div:nth-child(2) {
                         margin-top: 1px;
                         color: var(--Text_Black, #000);
                         font-family: DM Sans;
-                        font-size: 12px;
+                        font-size: 1em;
                         font-style: normal;
                         font-weight: 700;
                         line-height: 24px;
@@ -259,7 +269,7 @@
     }
 
     >div:nth-child(2) {
-        width: 1440px;
+        width: 100%;
         height: 1px;
         flex-shrink: 0;
         opacity: 0.0989;
@@ -274,7 +284,7 @@
     >div:nth-child(3) {
         padding-left: 135px;
         display: flex;
-        gap: 787px;
+        justify-content: space-between;
         margin-top: 27px;
         @include paragraph;
 
