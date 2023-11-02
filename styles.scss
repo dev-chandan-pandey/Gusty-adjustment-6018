@@ -4,4 +4,26 @@
     @import "poornima.scss";
     @import "nidhi.scss";
   
-  
+    body{
+      background-color: rgba(67,76,204,0.0515);
+    }
+.article{
+  width:80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+   .left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 59%;
+    background-color: none;
+   }
+   .right{
+    width:26%;
+    border: 2px solid black;
+    height: 100px;
+    background-color: none;
+   }
+}
