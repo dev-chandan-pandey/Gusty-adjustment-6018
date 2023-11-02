@@ -89,7 +89,7 @@
 .footer-1 > .box > .inp input ::-moz-placeholder {
   color: var(--text-black-50, rgba(0, 0, 0, 0.5));
   font-family: DM Sans;
-  font-size: 16px;
+  font-size: 2em;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
@@ -459,6 +459,72 @@
   margin-top: 0.4rem;
 }
 
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background: #434CCC;
+  color: rgba(255, 255, 255, 0.3019607843);
+}
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  border: 2px solid black;
+}
+header .navbar .logo {
+  width: 20%;
+  color: white;
+}
+header .navbar .logo img {
+  width: 102px;
+  height: 48px;
+}
+header .navbar div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .navbar div .list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: var(#FFF);
+  text-align: right;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  width: 324px;
+  height: 24px;
+}
+header .navbar div .list li {
+  padding: 10px;
+}
+header .navbar div .list li a {
+  text-decoration: none;
+  color: white;
+}
+header .navbar div button {
+  box-sizing: border-box;
+  color: #FFF;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  background-color: inherit;
+  border: 1px solid lightgray;
+  padding: 15px, 10px;
+}
+
 .yellow {
   background-color: yellow;
 }
@@ -488,7 +554,6 @@
   width: 100%;
   height: 150px;
   background-color: chartreuse;
-  border: 1px solid;
   display: flex;
 }
 
@@ -514,7 +579,6 @@
   width: 100%;
   height: 150px;
   background-color: chartreuse;
-  border: 1px solid;
   display: flex;
 }
 
@@ -522,7 +586,6 @@
   width: 100%;
   height: 150px;
   background-color: chartreuse;
-  border: 1px solid;
   display: flex;
 }
 
@@ -629,5 +692,5 @@ body {
   width: 26%;
   border: 2px solid black;
   height: 100px;
-  background-color: none; 
+  background-color: none;
 }/*# sourceMappingURL=styles.css.map */
