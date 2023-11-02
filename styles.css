@@ -85,6 +85,14 @@
     width: 330px;
   }
 }
+.footer-1 > .box > .inp input ::-moz-placeholder {
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
 .footer-1 > .box > .inp input ::placeholder {
   color: var(--text-black-50, rgba(0, 0, 0, 0.5));
   font-family: DM Sans;
@@ -377,6 +385,62 @@
 #maluisset-to-related #parro-share #parro-share-on > div > p:nth-child(2) {
   margin-right: 0.813rem;
 }
+#maluisset-to-related #author-card {
+  width: 100%;
+  height: 10rem;
+  flex-shrink: 0;
+  margin-top: 3rem;
+  border-radius: 0.3125rem;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+  margin-bottom: 4.7rem;
+}
+#maluisset-to-related #author-card #author-card-img-peragraph {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+#maluisset-to-related #author-card #author-card-img-peragraph #author-img > img {
+  width: 6.5rem;
+  border-radius: 50%;
+}
+#maluisset-to-related #author-card #author-card-img-peragraph .aut-details {
+  width: 100%;
+  height: 70%;
+}
+#maluisset-to-related #author-card #author-card-img-peragraph .aut-details > p:nth-child(1) {
+  color: #000;
+  /* Text_Small */
+  font-family: DM Sans;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5rem; /* 200% */
+}
+#maluisset-to-related #author-card #author-card-img-peragraph .aut-details > h4 {
+  color: #000;
+  /* Text_Big */
+  font-family: DM Sans;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem; /* 160% */
+  margin-top: 0.2rem;
+}
+#maluisset-to-related #author-card #author-card-img-peragraph .aut-details .aut-details-pera {
+  color: rgba(0, 0, 0, 0.5);
+  /* Text_Gray */
+  font-family: DM Sans;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 150% */
+  width: 100%;
+  margin-top: 0.4rem;
+}
 
 .yellow {
   background-color: yellow;
@@ -525,8 +589,7 @@
   letter-spacing: 0px;
   text-align: left;
 }
- 
- 
+
 body {
   background-color: rgba(67, 76, 204, 0.0515);
 }
@@ -550,4 +613,4 @@ body {
   border: 2px solid black;
   height: 100px;
   background-color: none;
-}/*# sourceMappingURL=styles.css.map */ 
+}/*# sourceMappingURL=styles.css.map */
