@@ -11,19 +11,18 @@
   width:80%;
   margin: auto;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
    .left{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    width: 59%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 69%;
     background-color: none;
    }
    .right{
-    width:26%;
+    width:21%;
     border: 2px solid black;
-    height: 100px;
+    // background-color: black;
+    // height: 2200px
     background-color: none;
    }
 }
