@@ -3,7 +3,7 @@
 }
 
 .footer-1 {
-  margin-top: 500px;
+  margin-top: 5rem;
   background-color: #FFDD78;
 }
 .footer-1 > .box {
@@ -360,6 +360,12 @@
   justify-content: space-between;
   padding-right: 0.2rem;
 }
+@media all and (max-width: 375px) {
+  #maluisset-to-related #parro-share {
+    flex-direction: column;
+    row-gap: 2.5rem;
+  }
+}
 #maluisset-to-related #parro-share #parro-btn {
   display: flex;
   gap: 0.875rem;
@@ -406,7 +412,6 @@
   box-sizing: border-box;
   width: 99.8%;
   padding: 1rem;
-  flex-shrink: 0;
   margin-top: 3rem;
   border-radius: 0.3125rem;
   background: #fff;
@@ -414,12 +419,24 @@
   margin-bottom: 4.7rem;
 }
 #maluisset-to-related #author-card #author-card-img-peragraph {
-  width: 95%;
+  width: 97%;
   height: 100%;
   margin: auto;
   display: flex;
   align-items: center;
   gap: 2rem;
+}
+@media all and (max-width: 375px) {
+  #maluisset-to-related #author-card #author-card-img-peragraph {
+    width: 100%;
+    align-items: start;
+    margin-bottom: 1.5rem;
+  }
+}
+@media all and (max-width: 375px) {
+  #maluisset-to-related #author-card #author-card-img-peragraph #author-img {
+    margin-left: 13px;
+  }
 }
 #maluisset-to-related #author-card #author-card-img-peragraph #author-img > img {
   width: 6.5rem;
@@ -438,6 +455,12 @@
   font-weight: 700;
   line-height: 1.5rem; /* 200% */
 }
+@media all and (max-width: 375px) {
+  #maluisset-to-related #author-card #author-card-img-peragraph .aut-details > p:nth-child(1) {
+    margin-top: 1.5rem;
+    margin-left: -8px;
+  }
+}
 #maluisset-to-related #author-card #author-card-img-peragraph .aut-details > h4 {
   color: #000;
   /* Text_Big */
@@ -447,6 +470,13 @@
   font-weight: 400;
   line-height: 2rem; /* 160% */
   margin-top: 0.2rem;
+}
+@media all and (max-width: 375px) {
+  #maluisset-to-related #author-card #author-card-img-peragraph .aut-details > h4 {
+    width: 200%;
+    margin-top: -0.1rem;
+    margin-left: -9px;
+  }
 }
 #maluisset-to-related #author-card #author-card-img-peragraph .aut-details .aut-details-pera {
   color: rgba(0, 0, 0, 0.5);
@@ -458,6 +488,13 @@
   line-height: 1.5rem; /* 150% */
   width: 100%;
   margin-top: 0.4rem;
+}
+@media all and (max-width: 375px) {
+  #maluisset-to-related #author-card #author-card-img-peragraph .aut-details .aut-details-pera {
+    width: 222%;
+    margin-top: 2.5rem;
+    margin-left: -138px;
+  }
 }
 #maluisset-to-related #maluisset-related-heading {
   color: #000;
@@ -471,19 +508,32 @@
 }
 #maluisset-to-related .related {
   box-sizing: border-box;
-  width: 97.8%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   gap: 2rem;
   margin-bottom: 4.62rem;
 }
+@media all and (max-width: 375px) {
+  #maluisset-to-related .related {
+    width: 100%;
+    margin: 0;
+    flex-direction: column;
+  }
+}
 #maluisset-to-related .related .relat-item {
-  width: 49%;
-  height: 30rem;
+  width: 47.6%;
+  padding-bottom: 1.5rem;
   flex-shrink: 0;
   border-radius: 0.3125rem;
   background: #fff;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+}
+@media all and (max-width: 375px) {
+  #maluisset-to-related .related .relat-item {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
 }
 #maluisset-to-related .related .relat-item .related-card {
   width: 90%;
@@ -514,10 +564,14 @@
   line-height: 2rem; /* 133.333% */
   margin-bottom: 1.5rem;
 }
+@media all and (max-width: 375px) {
+  #maluisset-to-related .related .relat-item .related-card .related-card-h4 {
+    width: 100%;
+  }
+}
 #maluisset-to-related .related .relat-item .related-card > hr {
-  width: 23.77rem;
+  width: 105.4%;
   height: 0.0625rem;
-  flex-shrink: 0;
   opacity: 0.1011;
   background: #000;
   margin-bottom: 1rem;
@@ -1008,16 +1062,31 @@ body {
   margin-top: 5%;
   display: flex;
   justify-content: space-between;
-  align-items: start;
+}
+@media all and (max-width: 375px) {
+  .article {
+    flex-direction: column;
+  }
 }
 .article .left {
-  width: 837px;
+  width: 69%;
   background-color: none;
 }
+@media all and (max-width: 375px) {
+  .article .left {
+    width: 100%;
+  }
+}
 .article .right {
+  width: 23%;
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: start;
   gap: 30px;
+}
+@media all and (max-width: 375px) {
+  .article .right {
+    width: 100%;
+  }
 }/*# sourceMappingURL=styles.css.map */
