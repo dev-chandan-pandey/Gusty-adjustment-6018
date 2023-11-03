@@ -86,14 +86,6 @@
     width: 80%;
   }
 }
-.footer-1 > .box > .inp input ::-moz-placeholder {
-  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
-  font-family: DM Sans;
-  font-size: 2em;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-}
 .footer-1 > .box > .inp input ::placeholder {
   color: var(--text-black-50, rgba(0, 0, 0, 0.5));
   font-family: DM Sans;
@@ -307,4 +299,6 @@
     margin: 0;
     padding: 14px;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles-7.css.map */
