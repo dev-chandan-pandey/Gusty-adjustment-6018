@@ -12,17 +12,19 @@
   margin: auto;
   margin-top:5%;
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
+  align-items: center;
+  // gap:40px;
    .left{
-    padding-left: 1rem;
-    padding-right: 1rem;
-    width: 69%;
+    // padding-left: 1rem;
+    // padding-right: 1rem;
+    width:837px;
     background-color: none;
    }
    .right{
-    width:23%;
+    // width:27%;
     // border: 2px solid black;
-    height: 2200px;
+    // height: 2200px;
     display: flex;
     flex-direction: column;
     justify-content: start;
