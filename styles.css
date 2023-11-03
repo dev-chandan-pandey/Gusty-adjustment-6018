@@ -593,7 +593,7 @@ header .navbar .nav-list button {
   width: 170px;
   height: 48px;
   border-radius: 5px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 2px solid rgba(255, 255, 255, 0.3);
   color: #FFF;
   text-align: center;
   font-family: DM Sans;
@@ -824,11 +824,25 @@ header .navbar .nav-list button {
   text-align: left;
   margin-top: 4%;
 }
+@media all and (max-width: 375px) {
+  .cont .head > h1 {
+    width: 100%;
+    margin-top: 4%;
+  }
+}
 .cont .cayla {
   display: flex;
   gap: 12px;
   margin-top: 4%;
   align-items: center;
+}
+@media all and (max-width: 375px) {
+  .cont .cayla {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
 }
 .cont .rect {
   display: flex;
@@ -837,8 +851,8 @@ header .navbar .nav-list button {
 }
 .cont .rec {
   margin-top: 12px;
-  background-color: yellow;
-  width: 3%;
+  background-color: rgb(255, 221, 120);
+  width: 2%;
   border-radius: 12%;
 }
 .cont .rect p {
@@ -866,6 +880,7 @@ header .navbar .nav-list button {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0px;
+  color: rgba(0, 0, 0, 0.5);
   text-align: left;
   margin-top: 5%;
 }
@@ -873,6 +888,7 @@ header .navbar .nav-list button {
   height: 60px;
 }
 .cont .erro p {
+  color: rgba(0, 0, 0, 0.5);
   font-family: DM Sans;
   font-size: 16px;
   font-weight: 400;
