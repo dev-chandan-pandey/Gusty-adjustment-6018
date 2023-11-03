@@ -36,6 +36,11 @@
         letter-spacing: 0px;
         text-align: left;
         margin-top: 4%;
+
+        @media all and (max-width:$mobile) {
+          width: 100%;
+          margin-top:4%;
+      }
       }
 
       .cayla{
@@ -43,6 +48,13 @@
         gap:12px;
         margin-top: 4%;
         align-items: center;
+
+        @media all and (max-width:$mobile) {
+         display: grid;
+         width: 100%;
+         grid-template-columns: repeat(3,1fr);
+         grid-template-rows: repeat(2,1fr);
+      }
       }
 
       .rect{
@@ -52,13 +64,14 @@
       }
       .rec{
         margin-top: 12px;
-        background-color: yellow;
-        width:3%;
+        background-color:rgba(255, 221, 120, 1);
+        width:2%;
         // height:10%;
         border-radius:12%;
       }
       .rect p{
         margin-top: 20px;
+        
       }
       .name{
         //styleName: Text;
@@ -85,6 +98,7 @@
         font-weight: 400;
         line-height: 24px;
         letter-spacing: 0px;
+        color: rgba(0, 0, 0, 0.5);
         text-align: left;
         margin-top: 5%;
       }
@@ -93,6 +107,7 @@
       }
       .erro p{
         //styleName: Text_Gray;
+        color: rgba(0, 0, 0, 0.5);
         font-family: DM Sans;
         font-size: 16px;
         font-weight: 400;
