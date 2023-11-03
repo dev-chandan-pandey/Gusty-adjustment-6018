@@ -592,13 +592,14 @@ header .navbar div button {
 .cont > .arrow {
   display: flex;
   gap: 10px;
+  margin-top: 5%;
 }
 .cont > .img1 {
   width: 100%;
 }
 .cont > .img1 img {
   width: 100%;
-  margin-top: 12px;
+  margin-top: 5%;
 }
 .cont .elo {
   font-family: DM Sans;
@@ -607,6 +608,7 @@ header .navbar div button {
   line-height: 24px;
   letter-spacing: 0px;
   text-align: left;
+  margin-top: 4%;
 }
 .cont .head > h1 {
   width: 100%;
@@ -616,22 +618,27 @@ header .navbar div button {
   line-height: 80px;
   letter-spacing: 0px;
   text-align: left;
-  margin-top: 18px;
+  margin-top: 4%;
 }
 .cont .cayla {
   display: flex;
-  gap: 10px;
+  gap: 12px;
+  margin-top: 4%;
   align-items: center;
 }
 .cont .rect {
   display: flex;
   gap: 24px;
+  margin-top: 4%;
 }
 .cont .rec {
   margin-top: 12px;
+  background-color: yellow;
+  width: 3%;
+  border-radius: 12%;
 }
 .cont .rect p {
-  margin-top: 15px;
+  margin-top: 20px;
 }
 .cont .name {
   font-family: DM Sans;
@@ -656,7 +663,7 @@ header .navbar div button {
   line-height: 24px;
   letter-spacing: 0px;
   text-align: left;
-  margin-top: 2px;
+  margin-top: 5%;
 }
 .cont .rect img {
   height: 60px;
@@ -668,6 +675,7 @@ header .navbar div button {
   line-height: 24px;
   letter-spacing: 0px;
   text-align: left;
+  margin-top: 5%;
 }
 
 body {
