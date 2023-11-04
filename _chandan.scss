@@ -9,6 +9,7 @@ header{
      background-color:#434CCC;
      color: #FFFFFF4D;
     .navbar{
+        height: 100%;
         display:flex;
         justify-content: space-between;
         align-items: center;
@@ -44,24 +45,24 @@ header{
           display: flex;
           justify-content:end;
           align-items: center;
-          width:65%;
-          gap:35px;
-        //   border: 2px solid green;
+        //   width:65%;
+          height: 100%;
+        //   gap:35px;
+        //  border: 2px solid green;
           .list{
-            width: 80%;
+            // width: 100%;
                 //  border: 2px solid white;
-                
                 list-style-type:none;
                 display: flex;
                 flex-direction: row;
                 justify-content: end;
-                align-content: center;
+                align-items: center;
                 gap:35px;
                 height: 100%;
                 li{
                     // border:2px solid black;
-                    height: 24px;
                     a{
+                     height: 24px;
                     font-family:DM Sans;
                     font-size: 16px;
                     font-weight: 700;
@@ -71,11 +72,8 @@ header{
                     text-decoration: none;
                     color: white;
                    }
-                }
-            
-        }
-        
-        button{
+                    
+                 button{
             width: 170px;
             height: 48px;
            border-radius: 5px;
@@ -89,6 +87,10 @@ header{
            line-height: 24px; 
            background-color: #434CCC;
         }
+                }
+            
+        }
+       
       
     
          }
