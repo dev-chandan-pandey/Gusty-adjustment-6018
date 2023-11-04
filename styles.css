@@ -600,6 +600,7 @@ header {
   color: rgba(255, 255, 255, 0.3019607843);
 }
 header .navbar {
+  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -630,23 +631,19 @@ header .nav-list {
   display: flex;
   justify-content: end;
   align-items: center;
-  width: 65%;
-  gap: 35px;
+  height: 100%;
 }
 header .nav-list .list {
-  width: 80%;
   list-style-type: none;
   display: flex;
   flex-direction: row;
   justify-content: end;
-  align-content: center;
+  align-items: center;
   gap: 35px;
   height: 100%;
 }
-header .nav-list .list li {
-  height: 24px;
-}
 header .nav-list .list li a {
+  height: 24px;
   font-family: DM Sans;
   font-size: 16px;
   font-weight: 700;
@@ -656,7 +653,7 @@ header .nav-list .list li a {
   text-decoration: none;
   color: white;
 }
-header .nav-list button {
+header .nav-list .list li button {
   width: 170px;
   height: 48px;
   border-radius: 5px;
