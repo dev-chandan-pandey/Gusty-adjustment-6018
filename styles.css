@@ -1026,7 +1026,7 @@ hr {
 }
 @media all and (max-width: 375px) {
   .cont .cayla .chat {
-    width: 60%;
+    width: 40%;
     padding-right: -1rem;
     margin-top: 1rem;
     margin-left: -4px;
@@ -1042,9 +1042,8 @@ hr {
 }
 @media all and (max-width: 375px) {
   .cont .cayla .three {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
+    margin-left: -3.5rem;
+    margin-right: -1rem;
   }
 }
 .cont .rect {
