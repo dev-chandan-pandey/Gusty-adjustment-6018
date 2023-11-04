@@ -1014,20 +1014,22 @@ hr {
 @media all and (max-width: 375px) {
   .cont .cayla .date {
     margin-right: -1rem;
-    margin-left: -1.5rem;
+    display: flex;
+    align-items: center;
+    margin-left: -2rem;
   }
 }
 @media all and (max-width: 375px) {
   .cont .cayla .name {
     margin-right: -1rem;
-    margin-left: -2.5rem;
+    margin-left: -3rem;
   }
 }
 @media all and (max-width: 375px) {
   .cont .cayla .chat {
-    width: 40%;
+    width: 20%;
     padding-right: -1rem;
-    margin-top: 1rem;
+    margin-top: 0rem;
     margin-left: -4px;
   }
 }
@@ -1041,7 +1043,7 @@ hr {
 }
 @media all and (max-width: 375px) {
   .cont .cayla .three {
-    margin-left: -3.5rem;
+    margin-left: -4.5rem;
     margin-right: -1rem;
   }
 }
@@ -1050,14 +1052,33 @@ hr {
   gap: 24px;
   margin-top: 4%;
 }
-.cont .rec {
+.cont .rect .rec {
   margin-top: 12px;
   background-color: rgb(255, 221, 120);
   width: 2%;
-  border-radius: 12%;
+  border-radius: 12px;
+}
+@media all and (max-width: 375px) {
+  .cont .rect .rec {
+    width: 6%;
+    border-radius: 12px;
+  }
+}
+.cont .rect .rect p {
+  margin-top: 20px;
+}
+@media all and (max-width: 375px) {
+  .cont .rect .rect p {
+    margin-top: 1rem;
+  }
 }
 .cont .rect p {
   margin-top: 20px;
+}
+@media all and (max-width: 375px) {
+  .cont .rect p {
+    margin-top: 1rem;
+  }
 }
 .cont .name {
   font-family: DM Sans;
