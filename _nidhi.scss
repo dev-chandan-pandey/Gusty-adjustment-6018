@@ -80,7 +80,7 @@
       }
       .chat{
         @media all and (max-width:$mobile){
-          width:40%;
+          width:20%;
           padding-right: -1rem;
           margin-top: 1rem;
           margin-left: -4px;
@@ -113,7 +113,11 @@
         background-color:rgba(255, 221, 120, 1);
         width:2%;
         // height:10%;
-        border-radius:12%;
+        border-radius:12px;
+        @media all and (max-width:$mobile){
+          width:6%;
+          border-radius:12px;
+        }
       }
       .rect p{
         margin-top: 20px;

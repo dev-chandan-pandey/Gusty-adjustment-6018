@@ -1026,7 +1026,7 @@ hr {
 }
 @media all and (max-width: 375px) {
   .cont .cayla .chat {
-    width: 40%;
+    width: 20%;
     padding-right: -1rem;
     margin-top: 1rem;
     margin-left: -4px;
@@ -1055,7 +1055,13 @@ hr {
   margin-top: 12px;
   background-color: rgb(255, 221, 120);
   width: 2%;
-  border-radius: 12%;
+  border-radius: 12px;
+}
+@media all and (max-width: 375px) {
+  .cont .rec {
+    width: 6%;
+    border-radius: 12px;
+  }
 }
 .cont .rect p {
   margin-top: 20px;
