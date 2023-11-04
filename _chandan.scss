@@ -21,9 +21,25 @@ header{
                 width: 100%;
             }
         }
-    }
+
+        .menu-button{
+            display: none;
             
-        
+        }
+        @media all and (max-width:$mobile){
+            .menu-button{
+                height: 14px;
+                display:block;
+                width: 20px;
+                color: #FFFFFF;
+                
+            }
+            .nav-list{
+             display:none;
+            }
+        }
+
+    }
          .nav-list{
           display: flex;
           justify-content:end;
@@ -73,14 +89,14 @@ header{
            line-height: 24px; 
            background-color: #434CCC;
         }
+      
     
          }
           
         }
         
     
-    
-
+      
     // right div started from here
     .search-bar{
         margin-top: 15%;

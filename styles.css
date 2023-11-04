@@ -613,6 +613,20 @@ header .navbar .logo {
 header .navbar .logo img {
   width: 100%;
 }
+header .navbar .menu-button {
+  display: none;
+}
+@media all and (max-width: 375px) {
+  header .navbar .menu-button {
+    height: 14px;
+    display: block;
+    width: 20px;
+    color: #FFFFFF;
+  }
+  header .navbar .nav-list {
+    display: none;
+  }
+}
 header .nav-list {
   display: flex;
   justify-content: end;
