@@ -607,4 +607,101 @@ header .nav-list .list li button {
   border-radius: 5px;
 }
 
+.middle {
+  background-color: #F5F6FC;
+  width: 80%;
+  margin: auto;
+  padding: 64px;
+}
+.middle > div > .map {
+  width: 100%;
+  height: 646px;
+}
+.middle > div > .map + div {
+  background: #434CCC;
+  opacity: 0.5;
+  height: 646px;
+  margin-top: -650px;
+}
+.middle > div > .map + div > div > .locate {
+  display: block;
+  width: 72px;
+  margin: auto;
+  padding: 287px;
+}
+.middle > .bottom {
+  width: 100%;
+  display: flex;
+  margin-top: 60px;
+  gap: 80px;
+  justify-content: space-between;
+}
+.middle > .bottom > .bottom-right {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media all and (min-width: 375px) {
+  .middle > .bottom > .bottom-right {
+    width: 100%;
+    margin-top: 10px;
+    justify-content: start;
+    row-gap: 50px;
+  }
+}
+.middle > .bottom > .bottom-right h2 {
+  color: var(--Text_Black, #000);
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+}
+.middle > .bottom > .bottom-right > .right-2, .middle > .bottom > .bottom-right .right-3, .middle > .bottom > .bottom-right .right-4 {
+  display: flex;
+  gap: 20px;
+}
+@media all and (min-width: 375px) {
+  .middle > .bottom > .bottom-right > .right-2, .middle > .bottom > .bottom-right .right-3, .middle > .bottom > .bottom-right .right-4 {
+    width: 100%;
+  }
+}
+.middle > .bottom > .bottom-right > .right-2 > div, .middle > .bottom > .bottom-right .right-3 > div, .middle > .bottom > .bottom-right .right-4 > div {
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.middle > .bottom > .bottom-right > .right-2 .phone, .middle > .bottom > .bottom-right > .right-2 .email, .middle > .bottom > .bottom-right .right-3 .phone, .middle > .bottom > .bottom-right .right-3 .email, .middle > .bottom > .bottom-right .right-4 .phone, .middle > .bottom > .bottom-right .right-4 .email {
+  color: var(--Text_Black, #000);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.middle > .bottom > .bottom-right > .right-5 {
+  display: flex;
+  gap: 10px;
+}
+@media all and (min-width: 375px) {
+  .middle > .bottom > .bottom-right > .right-5 {
+    padding-top: 50px;
+  }
+}
+.middle > .bottom > .bottom-right > .right-5 .social {
+  width: 35px;
+  height: 35px;
+  background-color: #434CCC;
+  border-radius: 3px;
+}
+.middle > .bottom > .bottom-right > .right-5 .social > svg {
+  margin: 10px auto;
+  display: block;
+  color: white;
+}
+
 /*# sourceMappingURL=styles-7.css.map */
