@@ -86,6 +86,14 @@
     width: 80%;
   }
 }
+.footer-1 > .box > .inp input ::-moz-placeholder {
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  font-family: DM Sans;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
 .footer-1 > .box > .inp input ::placeholder {
   color: var(--text-black-50, rgba(0, 0, 0, 0.5));
   font-family: DM Sans;
@@ -371,6 +379,10 @@
     width: 100%;
   }
 }
+.middle > .bottom > .bottom-left > .bottom-left-input > input::-moz-placeholder {
+  padding-top: 0.81rem;
+  padding-bottom: 0.6rem;
+}
 .middle > .bottom > .bottom-left > .bottom-left-input > input::placeholder {
   padding-top: 0.81rem;
   padding-bottom: 0.6rem;
@@ -552,6 +564,7 @@ header .nav-list .list li button {
 }
 
 .post-img {
+  width: -moz-fit-content;
   width: fit-content;
 }
 .post-img img {
@@ -638,16 +651,16 @@ header .nav-list .list li button {
 }
 .middle > .bottom > .bottom-right {
   display: flex;
+  width: 40%;
   gap: 20px;
   flex-direction: column;
   justify-content: space-between;
 }
-@media all and (min-width: 375px) {
+@media all and (max-width: 375px) {
   .middle > .bottom > .bottom-right {
     width: 100%;
-    margin-top: 10px;
     justify-content: start;
-    row-gap: 50px;
+    gap: 20px;
   }
 }
 .middle > .bottom > .bottom-right h2 {
@@ -662,7 +675,7 @@ header .nav-list .list li button {
   display: flex;
   gap: 20px;
 }
-@media all and (min-width: 375px) {
+@media all and (max-width: 375px) {
   .middle > .bottom > .bottom-right > .right-2, .middle > .bottom > .bottom-right .right-3, .middle > .bottom > .bottom-right .right-4 {
     width: 100%;
   }
@@ -687,11 +700,6 @@ header .nav-list .list li button {
   display: flex;
   gap: 10px;
 }
-@media all and (min-width: 375px) {
-  .middle > .bottom > .bottom-right > .right-5 {
-    padding-top: 50px;
-  }
-}
 .middle > .bottom > .bottom-right > .right-5 .social {
   width: 35px;
   height: 35px;
@@ -704,4 +712,18 @@ header .nav-list .list li button {
   color: white;
 }
 
-/*# sourceMappingURL=styles-7.css.map */
+body {
+  background-color: #F5F6FC;
+}
+
+.middle {
+  width: 80%;
+  margin: auto;
+  padding: 64px;
+}
+@media all and (max-width: 375px) {
+  .middle {
+    width: 80%;
+    padding: 10px;
+  }
+}/*# sourceMappingURL=styles-7.css.map */
