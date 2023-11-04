@@ -10,8 +10,9 @@ body{
 .article{
 width:80%;
 margin: auto;
-margin-top:5%;
+margin-top:3%;
 display: flex;
+// border: 2px solid red;
 justify-content: space-between;
 @media all and (max-width:$mobile) {
 flex-direction: column;
@@ -24,6 +25,7 @@ flex-direction: column;
 // justify-content: start;
 // align-items: start;
 // flex-direction: column;
+// border: 2px solid blue;
 width: 69%;
 background-color: none;
 @media all and (max-width:$mobile) {
@@ -38,7 +40,7 @@ display: flex;
 flex-direction: column;
 justify-content: start;
 align-items: start;
-gap: 30px;
+gap: 40px;
 @media all and (max-width:$mobile) {
   width: 100%;
 }
