@@ -277,7 +277,7 @@ $fonttype: 'DM Sans', sans-serif;
   border-radius: 5px;
   outline: none;
   border: 1px solid #dadada;
-//   padding-left: 16px;
+  // padding-left: 20px;
 
   // width: 100%;
   // margin-top: 28px;
@@ -328,6 +328,7 @@ $fonttype: 'DM Sans', sans-serif;
   background-color: #434ccc;
   color: white;
   margin-top: 28px;
+  // border: none;
 }
 @media (max-width: $mobile) {
   .btn-submit {
@@ -335,7 +336,6 @@ $fonttype: 'DM Sans', sans-serif;
     width: 170px;
     border-radius: 5px;
     color: #fff;
-
     text-align: center;
     font-family: DM Sans;
     font-size: 16px;
