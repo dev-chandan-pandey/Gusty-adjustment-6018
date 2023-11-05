@@ -33,11 +33,6 @@
   letter-spacing: 4.8px;
   margin-top: 79px;
 }
-@media all and (max-width: 375px) {
-  .footer-1 > .box > .box-1 > h5 {
-    margin-left: 14px;
-  }
-}
 .footer-1 > .box > .box-1 > h2 {
   margin-top: 21px;
   height: 128px;
@@ -52,7 +47,6 @@
   .footer-1 > .box > .box-1 > h2 {
     width: 209px;
     height: 144px;
-    margin-left: 14px;
     font-family: DM Serif Display;
     font-size: 40px;
     font-style: normal;
@@ -68,7 +62,6 @@
 @media all and (max-width: 375px) {
   .footer-1 > .box > .inp {
     width: 80%;
-    margin-left: 14px;
     margin-top: 10px;
   }
 }
@@ -124,7 +117,6 @@
 }
 @media all and (max-width: 375px) {
   .footer-1 > .box > .button {
-    margin-left: 14px;
     margin-top: 16px;
   }
 }
@@ -137,7 +129,8 @@
 }
 @media all and (max-width: 375px) {
   .footer-2 {
-    width: 375px;
+    width: 80%;
+    margin: auto;
     height: 896px;
     flex-shrink: 0;
   }
@@ -152,12 +145,12 @@
 @media all and (max-width: 375px) {
   .footer-2 #div-1 {
     display: flex;
-    padding: 0 14px;
+    width: 100%;
     flex-direction: column;
   }
 }
 .footer-2 #div-1 > #div-1-1 {
-  width: 30%;
+  width: 33%;
 }
 @media all and (max-width: 375px) {
   .footer-2 #div-1 > #div-1-1 {
@@ -192,10 +185,14 @@
 .footer-2 #div-1 #div-1-2 {
   display: flex;
   gap: 20px;
+  width: 33%;
+  justify-content: space-around;
 }
 @media all and (max-width: 375px) {
   .footer-2 #div-1 #div-1-2 {
     display: flex;
+    width: 50%;
+    justify-content: start;
   }
 }
 .footer-2 #div-1 #div-1-2 > div:nth-child(1),
@@ -232,7 +229,7 @@
   display: flex;
   flex-direction: column;
   margin-top: 79px;
-  width: 30%;
+  width: 33%;
   gap: 40px;
 }
 @media all and (max-width: 375px) {
@@ -285,7 +282,8 @@
 }
 @media all and (max-width: 375px) {
   .footer-2 > div:nth-child(2) {
-    width: 375px;
+    width: 125%;
+    margin-left: -40px;
   }
 }
 .footer-2 > div:nth-child(3) {
