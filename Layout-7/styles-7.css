@@ -160,7 +160,7 @@
 .footer-2 #div-1 > #div-1-1 > div:nth-child(1) {
   color: var(--Text_Black, #000);
   font-family: DM Serif Display;
-  font-size: 1em;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
   margin-top: 72px;
@@ -197,7 +197,7 @@
 }
 .footer-2 #div-1 #div-1-2 > div:nth-child(1),
 .footer-2 #div-1 #div-1-2 > div:nth-child(2) {
-  margin-top: 79px;
+  margin-top: 67px;
 }
 @media all and (max-width: 375px) {
   .footer-2 #div-1 #div-1-2 > div:nth-child(1),

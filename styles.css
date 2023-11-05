@@ -160,7 +160,7 @@
 .footer-2 #div-1 > #div-1-1 > div:nth-child(1) {
   color: var(--Text_Black, #000);
   font-family: DM Serif Display;
-  font-size: 1em;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
   margin-top: 72px;
@@ -197,7 +197,7 @@
 }
 .footer-2 #div-1 #div-1-2 > div:nth-child(1),
 .footer-2 #div-1 #div-1-2 > div:nth-child(2) {
-  margin-top: 79px;
+  margin-top: 67px;
 }
 @media all and (max-width: 375px) {
   .footer-2 #div-1 #div-1-2 > div:nth-child(1),
@@ -776,7 +776,6 @@ header .nav-list .list li button {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  opacity: 0.498;
 }
 
 .tag {
@@ -1060,18 +1059,22 @@ header .nav-list .list li button {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(1, 55px);
-  gap: 10px;
+  gap: 3.3rem;
 }
 
 @media (max-width: 375px) {
   .form-main {
     grid-template-columns: repeat(1, 100%);
     grid-template-rows: repeat(2, 38px);
+    gap: 3.3rem;
   }
 }
 .input-content {
   width: 98%;
   height: 98%;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #dadada;
 }
 
 .text-area textarea {
@@ -1085,6 +1088,9 @@ header .nav-list .list li button {
   line-height: 24px;
   color: rgba(0, 0, 0, 0.5019607843);
   resize: none;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #dadada;
 }
 
 .text-area ::-moz-placeholder {
@@ -1103,7 +1109,7 @@ header .nav-list .list li button {
   margin-top: 32px;
   border-radius: 5px;
   flex-shrink: 0;
-  background-color: #434CCC;
+  background-color: #434ccc;
   color: white;
   margin-top: 28px;
 }
@@ -1113,7 +1119,7 @@ header .nav-list .list li button {
     height: 48px;
     width: 170px;
     border-radius: 5px;
-    color: #FFF;
+    color: #fff;
     text-align: center;
     font-family: DM Sans;
     font-size: 16px;
@@ -1228,11 +1234,17 @@ header .nav-list .list li button {
     border-radius: 12px;
   }
 }
-.cont .rect .rect p {
+.cont .rect > p {
   margin-top: 20px;
+  color: #000;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
 }
 @media all and (max-width: 375px) {
-  .cont .rect .rect p {
+  .cont .rect > p {
     margin-top: 1rem;
   }
 }
