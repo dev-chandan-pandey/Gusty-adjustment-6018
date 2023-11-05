@@ -17,7 +17,9 @@ header{
         display:flex;
         justify-content: space-between;
         align-items: center;
-        width: 80%;    
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;    
         .logo{
             width: 102px;
             // height: 48px;
@@ -229,21 +231,24 @@ color: #000000;
         flex-direction: row;
         justify-content: start;
         align-items: center;
+        flex-wrap: wrap;
+        justify-content: start;
         gap: 14px;
         button{
             text-align: center;
-            height: 24px;
+            // height: 24px;
             font-family: 'DM Sans';
             font-style: normal;
             font-weight: 700;
             font-size: 16px;
             line-height: 24px;   
-            // padding: 3px 5px;
+            padding: 0.31rem 0.7rem 0.19rem 0.73rem;
             background-color: none;
             border-radius: 5px;
             border: 0.1px solid  #434CCC;
             // opacity: 0.32;
             color:#434CCC;
             background-color: inherit;
+            // padding: 10px;
         }
     }
