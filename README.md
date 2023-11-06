@@ -1,5 +1,5 @@
 
-<a href="https://subtle-begonia-49643f.netlify.app/" ># Gusty-adjustment-6018</a>
+# <a href="https://subtle-begonia-49643f.netlify.app/"  style="textDecoration:none">Gusty-adjustment-6018</a>
 
 Blog Details Page and Contacts Page
 
